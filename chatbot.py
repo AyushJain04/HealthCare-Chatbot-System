@@ -162,8 +162,8 @@ def ask_from_bot():
     else:                 
         if "@" not in l:
             if query=="malaria":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for malaria: \n{}\n{}\n{}\n".format("Chloroquine","Mefloquine","Quinine sulfate (Qualaquin) with doxycycline (Vibramycin, Monodox, others)")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -174,8 +174,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="dengue":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for dengue: \n{}\n{}\n{}\n".format("Acetaminophen (Tylenol, others) can alleviate pain and reduce fever.","aspirin, ibuprofen"," naproxen sodium (Aleve, others).")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -186,8 +186,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="insomnia":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for insomnia: \n{}\n{}\n{}\n".format("Benzodiazepine sedatives such as triazolam (Halcion)","non-benzodiazepine sedatives such as zolpidem (Ambien, Intermezzo), eszopiclone (Lunesta), and zaleplon (Sonata) are drugs that can help induce sleep")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -198,8 +198,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="covid":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for covid: \n{}\n{}\n{}\n".format("Tell others you're sick so they keep their distance.","Cover your coughs and sneezes with a tissue or your elbow.","Wear a mask over your nose and mouth if you can.Wash regularly, especially your hands.")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -210,8 +210,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="thyroid":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for thyroid: \n{}\n{}\n".format("Standard treatment for hypothyroidism involves daily use of the synthetic thyroid hormone levothyroxine,","(Levo-T, Synthroid, others)")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -222,8 +222,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="chicken pox":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for chicken pox :\n{}\n{}".format("acyclovir (Zovirax, Sitavig)","another drug called immune globulin intravenous (Privigen).")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -234,8 +234,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="jaundice":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference for jaundice: \n{}\n{}".format("Hepatitis-induced jaundice requires antiviral or steroid medications.","Crigler-Najjar syndrome type 2.")
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
@@ -246,8 +246,8 @@ def ask_from_bot():
                 speak("Your medication reference has been sent successfully to your mail-id")
                 textF.delete(0, END)
             elif query=="diarrhea":
-                sender_email="poalatharva@gmail.com"
-                password="#@atharva1@#"
+                sender_email="your_email"
+                password="your_pwd"
                 message="medication reference"
                 server=smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
